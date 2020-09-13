@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Breast Cancer Predictor
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">
+        <h2>
+            Breast Cancer Predictor
+        </h2>
+        </div>
+        <form>
+            <label for="radius">Radius:</label><br>
+            <input type="number" id="radius" name="radius" step="any" min="0" max="1"><br>
+            <label for="texture">Texture:</label><br>
+            <input type="number" id="texture" name="texture"step="any" min="0" max="1"><br>
+            <label for="peri">Perimeter:</label><br>
+            <input type="number" id="peri" name="peri"step="any" min="0" max="1"><br>
+            <label for="area">Area:</label><br>
+            <input type="number" id="area" name="area"step="any" min="0" max="1"><br>
+            <label for="smooth">Smoothness:</label><br>
+            <input type="number" id="smooth" name="smooth"step="any" min="0" max="1"><br></br>
+            <input type="button" value="Submit" onclick="getvalue();" id="submit">
+        </form>
+
+    </body>
+    <script src="index.js"></script>
+
+</html>
